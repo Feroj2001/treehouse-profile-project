@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #ffffff;
 }
 
 /* Link Styles */
@@ -58,12 +58,13 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: white;
+  cursor: pointer;
 }
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center;
+  background: url('images/rsz_3background.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -100,19 +101,25 @@ header .profile-image:hover {
   color: yellow;
 }
 
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
+  background: lightgrey;
+  border-top: 8px solid lightgrey;
+  border-bottom: 4px solid lightgrey;
   border-radius: 6px;
   transition: all .5s;
 }
 
-.card:hover {
-  border-color: #ff99ff;
+.my-background:hover {
+  border-color: #39ff14;
+}
+
+.my-goals:hover {
+  border-color: #00FFFF;
 }
 
 ul.skills {
