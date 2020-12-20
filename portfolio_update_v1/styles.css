@@ -64,10 +64,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_3background.jpg') no-repeat top center;
+  background: url('images/rsz_2background.jpg') no-repeat top center fixed;
   background-size: cover;
+  background-position: center center;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 50px;
 }
 
 header {
@@ -90,7 +91,7 @@ header .profile-image:hover {
 .tag {
   background-color: #efefef;
   color: black;
-  padding: 10px;
+  padding: 18px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
@@ -99,6 +100,15 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
+}
+
+.occupation {
+  background-color: #222;
+  color: #00FFFF;
+  display: table;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 
@@ -113,6 +123,8 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+
 
 .my-background:hover {
   border-color: #39ff14;
@@ -229,4 +241,14 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+/* experince css */
+.experience:hover {
+  border-color: #00FFFF;
+}
+
+/* conact css */
+.contact-me:hover {
+  border-color: #8b5858;
 }
